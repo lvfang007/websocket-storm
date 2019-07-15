@@ -18,10 +18,10 @@ public class JedisUtil {
 
     static {
         //家庭环境
-//        jedis = new Jedis("192.168.201.100",6379,5000);
+//        jedis = new Jedis("0.0.0.0",6379,5000);
 //        jedis.auth("123");
         //工作环境
-//        jedis = new Jedis("192.168.90.201",6379,5000);
+//        jedis = new Jedis("0.0.0.0",6379,5000);
 //        jedis.auth("123");
         //测试环境
         jedis = new Jedis("127.0.0.1",6379,5000);
